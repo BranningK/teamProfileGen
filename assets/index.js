@@ -26,7 +26,16 @@ const managerInfo = [
         message: "What is the team manager's office number?",
     }
 ];
-  
+
+const addNew = [
+    {
+        type: "list",
+        name: "addNew",
+        message: "Would you like to add another team member?",
+        choices: ["Add engineer", "Add intern", "Finish team"]
+    }
+]
+
 
 function init(){
     inquirer.prompt(managerInfo)
@@ -39,6 +48,7 @@ function init(){
         .catch(function(error){
             console.log('error: ', error);
     });
+    // insert addNew prompt here
 };
 
 function writeToFile(fileName, data) {
