@@ -36,6 +36,51 @@ const addNew = [
     }
 ]
 
+const addEngineer = [
+    {
+        type: 'input',
+        name: 'name',
+        message: "What is the engineer's name?",
+    },
+    {
+        type: 'input',
+        name: 'managerID',
+        message: "What is the engineer's ID?",
+    },
+    {
+        type: 'input',
+        name: 'managerEmail',
+        message: "What is the engineer's email address",
+    },
+    {
+        type: 'input',
+        name: 'managerOffice',
+        message: "What is the engineer's Github username?",
+    }
+]
+
+const addIntern = [
+    {
+        type: 'input',
+        name: 'name',
+        message: "What is the intern's name?",
+    },
+    {
+        type: 'input',
+        name: 'managerID',
+        message: "What is the intern's ID?",
+    },
+    {
+        type: 'input',
+        name: 'managerEmail',
+        message: "What is the intern's email address",
+    },
+    {
+        type: 'input',
+        name: 'managerOffice',
+        message: "What school is the intern's from?",
+    }
+]
 
 function init(){
     inquirer.prompt(managerInfo)
