@@ -26,8 +26,8 @@ let html = `<!DOCTYPE html>
     <div class="divContainer">
         <div class="managerContainer">
             <div class="memberHeader">
-                <h3>${myTeam.Manager.getName()}</h3>
-                <h4>${Manager.getRole()}</h4>
+                <h3>${Employee.name}</h3>
+                <h4>${Employee.role}</h4>
             </div>
             <div class="memberInfo">
                 <h4>ID: 0001</h4>
@@ -86,8 +86,8 @@ let html = `<!DOCTYPE html>
 
 </html>`
 
-let generateHTML = function(data){
-    let myTeam = data
+let generateHTML = function(team){
+    // let myTeam = data
     console.log('Here is team:', team)
     let result = html;
     console.log(result)

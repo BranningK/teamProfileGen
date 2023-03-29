@@ -141,7 +141,7 @@ function addEmployee() {
 
 
                     let result = generateHTML(team);
-                    // console.log(result);
+                    console.log(result);
                     // writeToFile("test.html", result);
                     
 
