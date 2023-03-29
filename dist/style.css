@@ -23,25 +23,23 @@ header{
 body{
     background-color: white;
     color: white;
-}
-
-.managerContainer{
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
+    line-height: 40%;
 }
 
 .memberContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .memberHeader{
     background-color: var(--secondary);
     color:black;
     border-radius: 15px 15px 0px 0px;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 2px 3px 10px 1px var(--secondary);
+    text-align: center;
+    margin: 0px;
 }
 
 .memberInfo{
@@ -49,7 +47,8 @@ body{
     color:black;
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
-    box-shadow: 2px 3px 10px 1px var(--tertiary);
+    border: 1px solid #a6b1a0;
+    box-shadow: 2px 3px 10px 1px var(--secondary);
 }
 
 .member{
