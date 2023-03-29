@@ -35,6 +35,7 @@ body{
 .memberContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .memberHeader{
