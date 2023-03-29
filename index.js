@@ -137,15 +137,8 @@ function addEmployee() {
                         });
                     break;
                 case "Finish team":
-                    console.log(team);
-
-
                     let result = generateHTML(team);
-                    console.log(result);
-                    // writeToFile("test.html", result);
-                    
-
-
+                    writeToFile("team.html", result);
                     break;
                 default:
                     console.log('something isnt right');
