@@ -138,7 +138,7 @@ function addEmployee() {
                     break;
                 case "Finish team":
                     let result = generateHTML(team);
-                    writeToFile("team.html", result);
+                    writeToFile("./dist/team.html", result);
                     break;
                 default:
                     console.log('something isnt right');
