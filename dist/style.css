@@ -37,7 +37,7 @@ body{
     color:black;
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
-    box-shadow: 2px 3px 10px 1px var(--secondary);
+    box-shadow: 2px 3px 10px 1px var(--primary);
     text-align: center;
     margin: 0px;
 }
@@ -48,7 +48,7 @@ body{
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
     border: 1px solid #a6b1a0;
-    box-shadow: 2px 3px 10px 1px var(--secondary);
+    box-shadow: 2px 3px 10px 1px var(--primary);
 }
 
 .member{
